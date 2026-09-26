@@ -1,50 +1,8 @@
-# LinkSense - ML-Powered URL Shortener
+# 🔗 LinkSense - ML-Powered URL Shortener
 
 A full-stack URL shortener that uses machine learning to block phishing links, predict clicks and detect bot traffic.
 
-## Tech Stack
-
-| Category | Technologies |
-|---|---|
-| **Frontend** | React, Vite, Recharts |
-| **Backend** | Python, Flask, REST APIs |
-| **Database** | MongoDB |
-| **Caching** | Redis |
-| **Machine Learning** | Scikit-learn (Gradient Boosting, Random Forest, Isolation Forest) |
-| **Authentication** | JWT (access and refresh tokens) |
-| **DevOps** | Docker, GitHub Actions |
-
----
-
-## Screenshots
-
-| Login | 
-<img width="1365" height="690" alt="login_page" src="https://github.com/user-attachments/assets/a938959b-39f4-4e57-885f-cc0b1c23b73d" />
-
-| Dashboard |
-
-<img width="1365" height="670" alt="dashboard_1" src="https://github.com/user-attachments/assets/44cb8c71-f774-4bbb-8ca9-4146eaf80baa" />
-<img width="1362" height="668" alt="dashboard_2" src="https://github.com/user-attachments/assets/09e0da72-b16a-4b55-941e-855b79ca7b17" />
-
-| Short Link Created |
-<img width="1365" height="668" alt="link_short_url1" src="https://github.com/user-attachments/assets/d7628e51-9c93-4d4b-b3e7-1489cb406e1c" />
-
-| My Links | 
-
-<img width="1365" height="669" alt="my_links_page" src="https://github.com/user-attachments/assets/a78d039a-8519-4e2c-9efe-4a0e433a4245" />
-
-| URL Scanner |
-<img width="1361" height="682" alt="url_scanner1" src="https://github.com/user-attachments/assets/fe9ceebb-b958-4312-be44-adf9a8ac0b66" />
-<img width="1365" height="668" alt="url_scanner_2" src="https://github.com/user-attachments/assets/db392879-6b0e-4f90-9737-402bda223ee0" />
-
-| Theme Changing |
-
-<img width="1364" height="681" alt="dark_theme_dashboard" src="https://github.com/user-attachments/assets/d10fdcd6-268b-4d60-866a-cda36bf33b2a" />
-
-
----
-
-## Features
+## 🚀 Features
 
 **Link Management**
 - Short links with random codes or custom aliases
@@ -68,9 +26,47 @@ A full-stack URL shortener that uses machine learning to block phishing links, p
 - Redis caching for faster redirects
 - Light and dark mode
 
+----
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Frontend** | React, Vite, Recharts |
+| **Backend** | Python, Flask, REST APIs |
+| **Database** | MongoDB |
+| **Caching** | Redis |
+| **Machine Learning** | Scikit-learn (Gradient Boosting, Random Forest, Isolation Forest) |
+| **Authentication** | JWT (access and refresh tokens) |
+| **DevOps** | Docker, GitHub Actions |
+
 ---
 
-## ML Model Results
+##  📸 Screenshots
+
+Login 
+<img width="1365" height="690" alt="login_page" src="https://github.com/user-attachments/assets/a938959b-39f4-4e57-885f-cc0b1c23b73d" />
+
+Dashboard
+<img width="1365" height="670" alt="dashboard_1" src="https://github.com/user-attachments/assets/44cb8c71-f774-4bbb-8ca9-4146eaf80baa" />
+<img width="1362" height="668" alt="dashboard_2" src="https://github.com/user-attachments/assets/09e0da72-b16a-4b55-941e-855b79ca7b17" />
+
+Short Link Created
+<img width="1365" height="668" alt="link_short_url1" src="https://github.com/user-attachments/assets/d7628e51-9c93-4d4b-b3e7-1489cb406e1c" />
+
+My Links
+<img width="1365" height="669" alt="my_links_page" src="https://github.com/user-attachments/assets/a78d039a-8519-4e2c-9efe-4a0e433a4245" />
+
+URL Scanner
+<img width="1361" height="682" alt="url_scanner1" src="https://github.com/user-attachments/assets/fe9ceebb-b958-4312-be44-adf9a8ac0b66" />
+<img width="1365" height="668" alt="url_scanner_2" src="https://github.com/user-attachments/assets/db392879-6b0e-4f90-9737-402bda223ee0" />
+
+Theme Changing
+<img width="1364" height="681" alt="dark_theme_dashboard" src="https://github.com/user-attachments/assets/d10fdcd6-268b-4d60-866a-cda36bf33b2a" />
+
+---
+
+## 📈 ML Model Results
 
 | Model | Result |
 |---|---|
@@ -142,7 +138,7 @@ pytest
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 ```
 linksense/
 ├── backend/     Flask API, ML models, tests
