@@ -135,11 +135,9 @@ docker compose up --build
 cd backend
 pytest
 ```
-
 ---
+##📁 Project Structure
 
-## 📁 Project Structure
-```
 ```
 linksense/
 ├── backend/
@@ -162,8 +160,6 @@ linksense/
 ├── docker-compose.yml     # Run with Docker
 └── README.md
 ```
-```
-
 ---
 
 ## Author
