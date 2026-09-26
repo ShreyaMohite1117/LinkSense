@@ -1,0 +1,25 @@
+{
+  "model": "RandomForestRegressor",
+  "train_rows": 159360,
+  "test_rows": 39840,
+  "mae_clicks_per_hour": 1.57,
+  "naive_mae_clicks_per_hour": 3.464,
+  "improvement_over_naive_pct": 54.7,
+  "feature_importance": {
+    "lag_1": 0.7154,
+    "mean_24": 0.1562,
+    "mean_72": 0.0364,
+    "hour_sin": 0.0199,
+    "hour_cos": 0.0164,
+    "lag_24": 0.0164,
+    "log_age_hours": 0.0126,
+    "mean_6": 0.0096,
+    "lag_2": 0.0047,
+    "max_24": 0.0044,
+    "lag_48": 0.0043,
+    "lag_3": 0.0029,
+    "is_weekend": 0.0009
+  },
+  "trained_at": "2026-09-27 01:33:55",
+  "train_seconds": 33.0
+}

@@ -1,0 +1,64 @@
+{
+  "chosen_model": "gradient_boosting",
+  "dataset": "generated",
+  "samples": 12000,
+  "test_metrics": {
+    "accuracy": 0.9771,
+    "precision": 0.9758,
+    "recall": 0.9783,
+    "f1": 0.977,
+    "roc_auc": 0.9788
+  },
+  "all_models": {
+    "logistic_regression": {
+      "accuracy": 0.9629,
+      "precision": 0.9616,
+      "recall": 0.964,
+      "f1": 0.9628,
+      "roc_auc": 0.9794
+    },
+    "random_forest": {
+      "accuracy": 0.9767,
+      "precision": 0.975,
+      "recall": 0.9783,
+      "f1": 0.9766,
+      "roc_auc": 0.9783
+    },
+    "gradient_boosting": {
+      "accuracy": 0.9771,
+      "precision": 0.9758,
+      "recall": 0.9783,
+      "f1": 0.977,
+      "roc_auc": 0.9788
+    }
+  },
+  "feature_importance": {
+    "suspicious_words": 0.3314,
+    "brand_mismatch": 0.3104,
+    "host_digit_ratio": 0.2022,
+    "path_length": 0.0245,
+    "special_chars": 0.0229,
+    "digit_ratio": 0.0179,
+    "num_params": 0.0131,
+    "suspicious_tld": 0.0117,
+    "uses_https": 0.0102,
+    "risky_extension": 0.0097,
+    "query_length": 0.0097,
+    "host_entropy": 0.0088,
+    "host_length": 0.0087,
+    "has_at": 0.0082,
+    "path_depth": 0.0041,
+    "url_length": 0.0032,
+    "num_hyphens_host": 0.0029,
+    "num_subdomains": 0.0001,
+    "encoded_chars": 0.0001,
+    "num_dots_host": 0.0001,
+    "has_ip_host": 0.0,
+    "double_slash_path": 0.0,
+    "has_port": 0.0,
+    "is_shortener": 0.0,
+    "punycode": 0.0
+  },
+  "trained_at": "2026-09-27 01:33:21",
+  "train_seconds": 4.5
+}
