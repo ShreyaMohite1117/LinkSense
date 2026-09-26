@@ -32,13 +32,13 @@ A full-stack URL shortener that uses machine learning to block phishing links, p
 
 | Category | Technologies |
 |---|---|
-| **Frontend** | React, Vite, Recharts |
+| **Frontend** | React |
 | **Backend** | Python, Flask, REST APIs |
 | **Database** | MongoDB |
 | **Caching** | Redis |
 | **Machine Learning** | Scikit-learn (Gradient Boosting, Random Forest, Isolation Forest) |
 | **Authentication** | JWT (access and refresh tokens) |
-| **DevOps** | Docker, GitHub Actions |
+| **DevOps** | Docker |
 
 ---
 
