@@ -18,24 +18,29 @@ A full-stack URL shortener that uses machine learning to block phishing links, p
 
 ## Screenshots
 
-| Login | Dashboard |
-|---|---|
-| ![Login](<img width="1365" height="690" alt="login_page" src="https://github.com/user-attachments/assets/1e5313a2-ee13-463f-8822-eb80e786b14d" />
-) | ![Dashboard](<img width="1365" height="670" alt="dashboard_1" src="https://github.com/user-attachments/assets/153fdba9-b325-4161-aba8-f431f6393eec" />
-)(<img width="1362" height="668" alt="dashboard_2" src="https://github.com/user-attachments/assets/7fdb2f91-eb0b-4e8f-bb3c-9801ac8d77f9" />)
-|
+| Login | 
+<img width="1365" height="690" alt="login_page" src="https://github.com/user-attachments/assets/a938959b-39f4-4e57-885f-cc0b1c23b73d" />
 
-| Create Link | Short Link Created |
-|---|---|
-| ![Create Link](docs/screenshots/create-link.png) | ![Link Created](docs/screenshots/link-created.png) |
+| Dashboard |
 
-| My Links | Recent Links |
-|---|---|
-| ![My Links](docs/screenshots/my-links.png) | ![Recent Links](docs/screenshots/recent-links.png) |
+<img width="1365" height="670" alt="dashboard_1" src="https://github.com/user-attachments/assets/44cb8c71-f774-4bbb-8ca9-4146eaf80baa" />
+<img width="1362" height="668" alt="dashboard_2" src="https://github.com/user-attachments/assets/09e0da72-b16a-4b55-941e-855b79ca7b17" />
 
-| URL Scanner | ML Model Metrics |
-|---|---|
-| ![URL Scanner](docs/screenshots/url-scanner.png) | ![ML Models](docs/screenshots/ml-models.png) |
+| Short Link Created |
+<img width="1365" height="668" alt="link_short_url1" src="https://github.com/user-attachments/assets/d7628e51-9c93-4d4b-b3e7-1489cb406e1c" />
+
+| My Links | 
+
+<img width="1365" height="669" alt="my_links_page" src="https://github.com/user-attachments/assets/a78d039a-8519-4e2c-9efe-4a0e433a4245" />
+
+| URL Scanner |
+<img width="1361" height="682" alt="url_scanner1" src="https://github.com/user-attachments/assets/fe9ceebb-b958-4312-be44-adf9a8ac0b66" />
+<img width="1365" height="668" alt="url_scanner_2" src="https://github.com/user-attachments/assets/db392879-6b0e-4f90-9737-402bda223ee0" />
+
+| Theme Changing |
+
+<img width="1364" height="681" alt="dark_theme_dashboard" src="https://github.com/user-attachments/assets/d10fdcd6-268b-4d60-866a-cda36bf33b2a" />
+
 
 ---
 
