@@ -140,10 +140,28 @@ pytest
 
 ## 📁 Project Structure
 ```
+```
 linksense/
-├── backend/     Flask API, ML models, tests
-├── frontend/    React app
-└── docker-compose.yml
+├── backend/
+│   ├── app/
+│   │   ├── routes/        # API endpoints (auth, links, analytics, scanner)
+│   │   ├── services/      # Caching, rate limiting, click tracking
+│   │   ├── ml/            # Phishing detection, click prediction, bot detection
+│   │   └── utils/         # Helper functions
+│   ├── ml_training/       # Model training scripts
+│   ├── tests/             # Automated tests
+│   └── run.py             # Start the backend
+│
+├── frontend/
+│   └── src/
+│       ├── pages/         # Login, Dashboard, Links, Analytics, Scanner
+│       ├── components/    # Reusable UI parts
+│       └── api/           # Connects frontend to backend
+│
+├── docs/screenshots/      # Project screenshots
+├── docker-compose.yml     # Run with Docker
+└── README.md
+```
 ```
 
 ---
